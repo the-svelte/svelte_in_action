@@ -14,5 +14,7 @@ const people = [
 </script>
 
 {#each people as person (person.id)}
-  <div>{person.name} is {person.age} years old. ({person.id})</div>
+  <div class="text-truncate">
+    {person.name} is {person.age} years old. ({person.id})
+  </div>
 {/each}
