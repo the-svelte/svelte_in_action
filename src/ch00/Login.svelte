@@ -17,8 +17,8 @@
       <input class="form-control" id="inputPassword" type="password" bind:value={password} />
     </div>
     <div>
-      <button type="submit">Login</button>
-      <button type="button" on:click={signup}>Sign Up</button>
+      <button type="submit" class="btn btn-primary">Login</button>
+      <button type="button" class="btn btn-secondary" on:click={signup}>Sign Up</button>
     </div>
   </form>
 </section>
