@@ -12,6 +12,7 @@
   import Ex390 from './ch03/Ex3.9.0.svelte';
   import Ex3100 from './ch03/Ex3.10.0.svelte';
   import Ex3110 from './ch03/Ex3.11.0.svelte';
+  import Ex3120 from './ch03/Ex3.12.0.svelte';
 </script>
 
 <h2>Ex3</h2>
@@ -28,6 +29,7 @@
 <Ex390/>
 <Ex3100/>
 <Ex3110/>
+<Ex3120/>
 <div class="override">
   <h1>hahahah</h1>
 </div>
