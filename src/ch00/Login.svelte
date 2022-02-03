@@ -9,8 +9,16 @@
 <section>
   <form on:submit|preventDefault={login}>
     <div class="mb-3">
-      <lable class="form-label" for="inputUseraame">Username</lable>
+      <label class="form-label" for="inputUseraame">Username</label>
       <input class="form-control" id="inputUseraame" type="text" bind:value={username} />
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="inputPassword">Password</label>
+      <input class="form-control" id="inputPassword" type="password" bind:value={password} />
+    </div>
+    <div>
+      <button type="submit">Login</button>
+      <button type="button" on:click={signup}>Sign Up</button>
     </div>
   </form>
 </section>
