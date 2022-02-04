@@ -9,8 +9,8 @@
 <section>
   <form on:submit|preventDefault={login}>
     <div class="mb-3">
-      <label class="form-label" for="inputUseraame">Username</label>
-      <input class="form-control" id="inputUseraame" type="text" bind:value={username} />
+      <label class="form-label" for="inputUsername">Username</label>
+      <input class="form-control" id="inputUsername" type="text" bind:value={username} />
     </div>
     <div class="mb-3">
       <label class="form-label" for="inputPassword">Password</label>
