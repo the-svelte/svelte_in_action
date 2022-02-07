@@ -1,5 +1,5 @@
 <script>
-let color = 'pupple'
+let color = 'pupple';
 </script>
 
 {#if color === 'yellow'}

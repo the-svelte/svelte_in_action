@@ -5,7 +5,7 @@ import Ex4 from './Ex4.svelte';
 </script>
 
 <main class="container">
-  <Ex0/>
+  <!-- <Ex0/> -->
   <!-- <Ex3/> -->
-  <!-- <Ex4/> -->
+  <Ex4/>
 </main>
