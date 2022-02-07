@@ -14,7 +14,7 @@
 >{message}</div>
 
 <div
-  class={status >= 400 ? 'text-danger': 'text-primary'}
+  class={status >= 400 ? 'text-danger' : 'text-primary'}
   class:bold
 >{message}</div>
 
