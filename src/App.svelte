@@ -6,8 +6,12 @@ import Ex5 from './Ex5.svelte';
 </script>
 
 <main class="container">
-  <!-- <Ex0/> -->
-  <!-- <Ex3/> -->
-  <!-- <Ex4/> -->
-  <Ex5/>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <!-- <Ex0/> -->
+      <!-- <Ex3/> -->
+      <!-- <Ex4/> -->
+      <Ex5/>
+    </div>
+  </div>
 </main>
