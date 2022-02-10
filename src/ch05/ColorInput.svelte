@@ -9,4 +9,4 @@
   $: blue = parseInt(hex.slice(5, 7), 16);
 </script>
 
-<!-- <input type="color" bind:value={hex} /> -->
+<input type="color" bind:value={hex} />

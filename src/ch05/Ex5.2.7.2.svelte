@@ -4,7 +4,6 @@
   let hex = '';
 </script>
 
-
 <ColorPicker bind:hex={hex} />
 
 <div
@@ -12,6 +11,4 @@
   style="background-color: {hex}"
 >hex: {hex}</div>
 
-<input type="color" bind:value={hex} />
-
-
+<!-- <input type="color" bind:value={hex} /> -->

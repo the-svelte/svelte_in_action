@@ -17,9 +17,9 @@
   $: hex = '#' + getHex(red) + getHex(green) + getHex(blue);
 </script>
 
-<ColorSlider name="Red" bind:value={red} />
-<ColorSlider name="Green" bind:value={green} />
-<ColorSlider name="Blue" bind:value={blue} />
+<ColorSlider name="R" bind:value={red} />
+<ColorSlider name="G" bind:value={green} />
+<ColorSlider name="B" bind:value={blue} />
 
 <ColorInput bind:hex={hex} bind:red bind:green bind:blue />
 
