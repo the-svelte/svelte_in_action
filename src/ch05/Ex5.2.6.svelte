@@ -1,18 +1,19 @@
 <script>
-  let seasons = ['Spring', 'Summer', 'Fall', 'Winter'];
-  let favoriteSeason = '';
+  import Tally from './Tally.svelte';
+
+  let tally;
+  let taxRate = 0;
+  let grandTotal = 0;
+
+  function update() {
+    taxRate = tally.taxRate;
+    grandTotal = tally.getGrandTotal();
+  }
 </script>
 
+<Tally bind:this={tally} />
+<button on:click={update}>Update</button>
 <div>
-  <h5>Favorite Season</h5>
-  {#each seasons as season}
-  <div class="form-check">
-    <input class="form-check-input" id="input-{season}" type="radio" value={season} bind:group={favoriteSeason}>
-    <label class="form-check-label" for="input-{season}">{season}</label>
-  </div>
-  {/each}
-
-  <h6>favoriteSeason</h6>
-  <p>value: {favoriteSeason}</p>
-  <p>typeof: {typeof favoriteSeason}</p>
+  <p>Tax Rate = {(taxRate * 100).toFixed(2)}</p>
+  <p>Grand Total = {grandTotal.toFixed(2)}</p>
 </div>
