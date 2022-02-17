@@ -18,6 +18,8 @@ import Ex5272 from './ch05/Ex5.2.7.2.svelte';
 import Ex530 from './ch05/Ex5.3.0.svelte';
 import Ex531 from './ch05/Ex5.3.1.svelte';
 import Ex532 from './ch05/Ex5.3.2.svelte';
+import Ex540 from './ch05/Ex5.4.0.svelte';
+import Ex541 from './ch05/Ex5.4.1.svelte';
 </script>
 
 <h3>5</h3>
@@ -37,7 +39,9 @@ import Ex532 from './ch05/Ex5.3.2.svelte';
 <Ex5270/>
 <Ex5271/>
 <Ex5272/>
--->
 <Ex530/>
 <Ex531/>
 <Ex532/>
+-->
+<Ex540/>
+<Ex541/>
