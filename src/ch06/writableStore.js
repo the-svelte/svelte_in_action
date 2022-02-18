@@ -1,3 +1,3 @@
 import {writable} from 'svelte/store';
 
-export const dogStore = writable(['Sue', 'Anna', 'Sarah']);
+export const namesStore = writable(['Sue', 'Anna', 'Sarah']);
