@@ -3,6 +3,7 @@ import Ex0 from './Ex0.svelte';
 import Ex3 from './Ex3.svelte';
 import Ex4 from './Ex4.svelte';
 import Ex5 from './Ex5.svelte';
+import Ex6 from './Ex6.svelte';
 </script>
 
 <main class="container">
@@ -11,7 +12,8 @@ import Ex5 from './Ex5.svelte';
       <!-- <Ex0/> -->
       <!-- <Ex3/> -->
       <!-- <Ex4/> -->
-      <Ex5/>
+      <!-- <Ex5/> -->
+      <Ex6/>
     </div>
   </div>
 </main>
