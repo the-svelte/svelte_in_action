@@ -5,6 +5,8 @@ import Ex620 from './ch06/Ex6.2.0.svelte';
 import Ex621 from './ch06/Ex6.2.1.svelte';
 import App from './ch06/App.svelte';
 import Ex650 from './ch06/Ex6.5.0.svelte';
+import Ex651 from './ch06/Ex6.5.1.svelte';
+import Ex660 from './ch06/Ex6.6.0.svelte';
 </script>
 
 <!-- <h3>6.1</h3>
@@ -15,6 +17,9 @@ import Ex650 from './ch06/Ex6.5.0.svelte';
 <Ex621/>
 <h3>6.4</h3>
 <App/>
--->
 <h3>6.5</h3>
 <Ex650/>
+<Ex651/>
+-->
+<h3>6.6</h3>
+<Ex660/>
