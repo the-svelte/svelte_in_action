@@ -1,5 +1,5 @@
 <script>
-  import {namesStore} from './writableStore.js';
+  import {namesStore} from './writableStore0.js';
 </script>
 
 <div>{$namesStore}</div>
