@@ -8,6 +8,7 @@ import Ex650 from './ch06/Ex6.5.0.svelte';
 import Ex651 from './ch06/Ex6.5.1.svelte';
 import Ex660 from './ch06/Ex6.6.0.svelte';
 import Ex670 from './ch06/Ex6.7.0.svelte';
+import Ex671 from './ch06/Ex6.7.1.svelte';
 </script>
 
 <!-- <h3>6.1</h3>
@@ -27,3 +28,4 @@ import Ex670 from './ch06/Ex6.7.0.svelte';
 
 <h3>6.7</h3>
 <Ex670/>
+<Ex671/>

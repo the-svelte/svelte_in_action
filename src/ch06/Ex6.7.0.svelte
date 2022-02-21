@@ -17,14 +17,14 @@
     });
 
     lineStore.update(line => {
-      lien.translate(dx, dy);
+      line.translate(dx, dy);
       return line;
     });
   }
 </script>
 
 <h1>local point = ({point.x}, {point.y})</h1>
-<h1>point store = {pointStore.toString()}</h1>
-<h1>line store = {lineStore.toString()}</h1>
+<h1>point store = {$pointStore.toString()}</h1>
+<h1>line store = {$lineStore.toString()}</h1>
 
 <button class="btn btn-outline-primary" on:click={translate}>Translate</button>
