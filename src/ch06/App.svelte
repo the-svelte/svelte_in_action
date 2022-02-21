@@ -2,6 +2,8 @@
 import DogList from './DogList.svelte';
 import DogForm from './DogForm.svelte';
 
+import {bigDogsStore} from './bigDogsStore';
+
 let dog = {};
 let mode = 'list';
 
