@@ -33,9 +33,3 @@
 {#each markups as markup}
   {@html sanitize(markup)}
 {/each}
-
-<style>
-.img {
-  width: 4rem;
-}
-</style>
