@@ -4,6 +4,7 @@ import Ex711 from './ch07/Ex7.1.1.svelte';
 import Ex720 from './ch07/Ex7.2.0.svelte';
 import Ex730 from './ch07/Ex7.3.0.svelte';
 import Ex740 from './ch07/Ex7.4.0.svelte';
+import Ex741 from './ch07/Ex7.4.1.svelte';
 </script>
 
 <!--
@@ -20,3 +21,4 @@ import Ex740 from './ch07/Ex7.4.0.svelte';
 
 <h3>7.4</h3>
 <Ex740/>
+<Ex741/>
