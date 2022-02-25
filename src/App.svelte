@@ -5,9 +5,10 @@ import Ex4 from './Ex4.svelte';
 import Ex5 from './Ex5.svelte';
 import Ex6 from './Ex6.svelte';
 import Ex7 from './Ex7.svelte';
+import TikTok from './TikTok.svelte';
 </script>
 
-<main class="container">
+<main class="container-fluid">
   <div class="row justify-content-center">
     <div class="col-6">
       <!-- <Ex0/> -->
@@ -15,7 +16,8 @@ import Ex7 from './Ex7.svelte';
       <!-- <Ex4/> -->
       <!-- <Ex5/> -->
       <!-- <Ex6/> -->
-      <Ex7/>
+      <!-- <Ex7/> -->
     </div>
   </div>
+  <TikTok/>
 </main>
