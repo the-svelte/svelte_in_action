@@ -5,7 +5,8 @@
 // import Ex5 from './Ex5.svelte';
 // import Ex6 from './Ex6.svelte';
 // import Ex7 from './Ex7.svelte';
-import Ex8 from './Ex8.svelte';
+// import Ex8 from './Ex8.svelte';
+import Ex9 from './Ex9.svelte';
 // import TikTok from './TikTok.svelte';
 </script>
 
@@ -18,7 +19,8 @@ import Ex8 from './Ex8.svelte';
       <!-- <Ex5/> -->
       <!-- <Ex6/> -->
       <!-- <Ex7/> -->
-      <Ex8/>
+      <!-- <Ex8/> -->
+      <Ex9/>
     </div>
   </div>
   <!-- <TikTok/> -->
