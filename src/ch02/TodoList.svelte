@@ -35,13 +35,13 @@
 </script>
 
 <div>
-  <h2>To Do list</h2>
+  <h2>To Do List</h2>
   <div>
     {status}
     <button on:click={archiveCompleted}>Archive Completed</button>
   </div>
   <form on:submit|preventDefault>
-    <input bind:value={todoText} placeholder="enter new todo here" />
+    <input data-testid="todo-input" bind:value={todoText} placeholder="enter new todo here" />
     <button disabled={!todoText} on:click={addTodo}>Add</button>
   </form>
   <ul>
